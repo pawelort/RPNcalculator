@@ -156,7 +156,7 @@ def invalid_expression(equation_list):
 
 user_variables = {}
 while True:
-    user_input = input()
+    user_input = input("Type here expression to evaluate\n")
     if user_input == '/exit':
         print("Bye!")
         break
